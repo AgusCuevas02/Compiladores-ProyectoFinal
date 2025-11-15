@@ -1,0 +1,55 @@
+COMPILER DOMOTICA
+
+CHARACTERS
+  letter = "ABCDEFGHIJKLMNOPQRSTUVWXYZ¡…Õ”⁄—abcdefghijklmnopqrstuvwxyz·ÈÌÛ˙Ò_".
+  digit  = "0123456789".
+  hexletter = "ABCDEFabcdef".
+  cr     = '\r'.
+  lf     = '\n'.
+  tab    = '\t'.
+  stringch = ANY - '"' - '\\' - cr - lf - ∞.
+
+TOKENS
+  number   = digit { digit }.
+  decimal  = digit { digit } '.' digit { digit }.
+  ident    = letter { letter | digit }.
+  string   = '"' { stringch | '\\' '"' } '"'.
+  color    = '#' (digit | hexletter) (digit | hexletter) (digit | hexletter) 
+             (digit | hexletter) (digit | hexletter) (digit | hexletter).
+
+COMMENTS FROM "//" TO lf
+IGNORE ' ' + '\r' + '\n' + '\t'
+
+PRODUCTIONS
+DOMOTICA = { Statement } .
+
+Statement =
+    DeviceCommand
+  | WaitCommand
+  | LogCommand
+.
+
+DeviceCommand =
+    "ON" OnCommands
+  | "OFF" OffCommands
+  | "SET" SetCommands
+  | "COLOR" LightColor
+.
+
+OnCommands = "LIGHT" number | "FAN" number | "THERMOSTAT" number .
+OffCommands = "LIGHT" number | "FAN" number | "THERMOSTAT" number .
+LightColor = "LIGHT" number "TO" (color | ident) .
+SetCommands =
+      "FAN" number "SPEED" number
+    | "FAN" number
+    | "THERMOSTAT" number "TEMPERATURE" number
+.
+FanSet = "FAN" number ["SPEED" number] .
+ThermostatSet = "THERMOSTAT" number "TEMPERATURE" number .
+
+
+WaitCommand = "WAIT" number TimeUnit .
+TimeUnit = "SECONDS" | "MINUTES" | "HOURS" .
+LogCommand = "LOG" (string | ident) .
+
+END DOMOTICA.

@@ -1,0 +1,49 @@
+// RUTINA DOMÓTICA DE DEMOSTRACIÓN (con termostato)
+// Compilador con COCO/R - Trabajo Práctico
+
+// Encender luces con diferentes colores
+ON LIGHT 1
+WAIT 2 SECONDS
+COLOR LIGHT 1 TO #FF0000
+ON LIGHT 2
+WAIT 2 SECONDS
+COLOR LIGHT 2 TO #00FF00
+ON LIGHT 3
+WAIT 2 SECONDS
+COLOR LIGHT 3 TO #0000FF
+
+// Activar termostato de la habitación 3 y ajustar temperatura
+LOG "Activando termostato habitación 3..."
+ON THERMOSTAT 3
+SET THERMOSTAT 3 TEMPERATURE 22
+WAIT 2 SECONDS
+
+// Activar ventiladores
+LOG "Activando sistema de ventilación..."
+ON FAN 1
+SET FAN 1 SPEED 3
+WAIT 3 SECONDS
+ON FAN 2
+SET FAN 2 SPEED 2
+WAIT 3 SECONDS
+
+// Mantener estado unos segundos para la demostración
+WAIT 5 SECONDS
+
+// Cambiar temperatura del termostato (simular ajuste)
+LOG "Ajustando temperatura termostato habitación 3..."
+SET THERMOSTAT 3 TEMPERATURE 20
+WAIT 2 SECONDS
+
+// Finalizar rutina: apagar dispositivos
+LOG "Apagando todos los dispositivos..."
+OFF FAN 1
+OFF FAN 2
+OFF LIGHT 1
+OFF LIGHT 2
+OFF LIGHT 3
+
+// Apagar termostato al final
+OFF THERMOSTAT 3
+
+LOG "Rutina domótica ejecutada exitosamente"

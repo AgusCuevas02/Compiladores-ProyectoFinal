@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\domotica",
+    "\\src\\domotica\\ast",
+    "\\src\\domotica\\compiler",
+    "\\src\\domotica\\devices",
+    "\\src\\domotica\\gui",
+    "\\src\\domotica\\runtime"
+  ],
+  "SelectedNode": "\\src\\domotica\\ast\\ThermostatSetTemperatureCommand.java",
+  "PreviewInSolutionExplorer": false
+}
