@@ -663,6 +663,21 @@ public class DomoticaGUI extends JFrame {
                     status.setText("ENCENDIDO");
                     status.setForeground(Color.BLUE);
                 }
+                // 2. Logica de Colores solicitada
+                if (temperature > 24) {
+                    // Si es mayor a 24, fondo ROJO
+                    tPanel.setBackground(Color.RED);
+                    
+                    // Cambiamos el color del texto a blanco para que se lea bien sobre rojo
+                    if (tempLabel != null) tempLabel.setForeground(Color.WHITE);
+                } else {
+                    // Si es menor o igual, fondo AZUL (Usamos CYAN para mejor contraste, o Color.BLUE)
+                    tPanel.setBackground(Color.CYAN); 
+                    
+                    // Texto negro para fondo claro
+                    if (tempLabel != null) tempLabel.setForeground(Color.BLACK);
+                }
+                tPanel.repaint();
             }
         });
     }

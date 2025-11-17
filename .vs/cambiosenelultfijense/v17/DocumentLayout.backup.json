@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\Main.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\Main.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\ast\\ThermostatSetTemperatureCommand.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\ast\\ThermostatSetTemperatureCommand.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\gui\\DomoticaGUI.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\gui\\DomoticaGUI.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\runtime\\DomoticaRuntime.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\runtime\\DomoticaRuntime.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\runtime\\DeviceManager.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\runtime\\DeviceManager.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\ast\\ThermostatSetTemperatureCommand.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\ast\\ThermostatSetTemperatureCommand.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\devices\\Thermostat.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\devices\\Thermostat.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\compiler\\Parser.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\compiler\\Parser.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\compiler\\Domotica.ATG||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\compiler\\Domotica.ATG||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\devices\\Device.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\devices\\Device.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\devices\\Fan.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\devices\\Fan.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\devices\\Light.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\devices\\Light.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\Main.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\Main.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\runtime\\DomoticaRuntime.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\runtime\\DomoticaRuntime.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\ast\\ThermostatOffCommand.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -29,18 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\ast\\ThermostatOnCommand.java||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\ast\\ThermostatOnCommand.java||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\devices\\Thermostat.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\devices\\Thermostat.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\compiler\\Domotica.ATG||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\compiler\\Domotica.ATG||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\compiler\\Parser.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\compiler\\Parser.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\ast\\FanOffCommand.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -53,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\runtime\\Routine.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\runtime\\Routine.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\devices\\Device.java||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\domotica\\devices\\Device.java||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,7 +82,124 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DomoticaGUI.java",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\gui\\DomoticaGUI.java",
+              "RelativeDocumentMoniker": "src\\domotica\\gui\\DomoticaGUI.java",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\gui\\DomoticaGUI.java",
+              "RelativeToolTip": "src\\domotica\\gui\\DomoticaGUI.java",
+              "ViewState": "AgIAAJ8CAAAAAAAAAADwv8gCAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-13T20:38:53.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ThermostatSetTemperatureCommand.java",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\ast\\ThermostatSetTemperatureCommand.java",
+              "RelativeDocumentMoniker": "src\\domotica\\ast\\ThermostatSetTemperatureCommand.java",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\ast\\ThermostatSetTemperatureCommand.java",
+              "RelativeToolTip": "src\\domotica\\ast\\ThermostatSetTemperatureCommand.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-15T03:23:18.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeviceManager.java",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\runtime\\DeviceManager.java",
+              "RelativeDocumentMoniker": "src\\domotica\\runtime\\DeviceManager.java",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\runtime\\DeviceManager.java",
+              "RelativeToolTip": "src\\domotica\\runtime\\DeviceManager.java",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-13T18:31:56.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Thermostat.java",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\devices\\Thermostat.java",
+              "RelativeDocumentMoniker": "src\\domotica\\devices\\Thermostat.java",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\devices\\Thermostat.java",
+              "RelativeToolTip": "src\\domotica\\devices\\Thermostat.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-15T02:41:14.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Parser.java",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\compiler\\Parser.java",
+              "RelativeDocumentMoniker": "src\\domotica\\compiler\\Parser.java",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\compiler\\Parser.java",
+              "RelativeToolTip": "src\\domotica\\compiler\\Parser.java",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAkwL0BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-15T01:59:23.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Domotica.ATG",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\compiler\\Domotica.ATG",
+              "RelativeDocumentMoniker": "src\\domotica\\compiler\\Domotica.ATG",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\compiler\\Domotica.ATG",
+              "RelativeToolTip": "src\\domotica\\compiler\\Domotica.ATG",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-13T20:42:09.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Device.java",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\devices\\Device.java",
+              "RelativeDocumentMoniker": "src\\domotica\\devices\\Device.java",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\devices\\Device.java",
+              "RelativeToolTip": "src\\domotica\\devices\\Device.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-13T18:30:43.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Fan.java",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\devices\\Fan.java",
+              "RelativeDocumentMoniker": "src\\domotica\\devices\\Fan.java",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\devices\\Fan.java",
+              "RelativeToolTip": "src\\domotica\\devices\\Fan.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-15T02:38:32.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Light.java",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\devices\\Light.java",
+              "RelativeDocumentMoniker": "src\\domotica\\devices\\Light.java",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\devices\\Light.java",
+              "RelativeToolTip": "src\\domotica\\devices\\Light.java",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-15T02:38:19.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Main.java",
               "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\Main.java",
               "RelativeDocumentMoniker": "src\\domotica\\Main.java",
@@ -87,20 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DeviceManager.java",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\runtime\\DeviceManager.java",
-              "RelativeDocumentMoniker": "src\\domotica\\runtime\\DeviceManager.java",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\runtime\\DeviceManager.java",
-              "RelativeToolTip": "src\\domotica\\runtime\\DeviceManager.java",
-              "ViewState": "AgIAACIAAAAAAAAAAAAowEsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-13T18:31:56.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "DomoticaRuntime.java",
               "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\runtime\\DomoticaRuntime.java",
               "RelativeDocumentMoniker": "src\\domotica\\runtime\\DomoticaRuntime.java",
@@ -108,38 +220,11 @@
               "RelativeToolTip": "src\\domotica\\runtime\\DomoticaRuntime.java",
               "ViewState": "AgIAABcAAAAAAAAAAAAowEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-13T18:29:47.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T18:29:47.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DomoticaGUI.java",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\gui\\DomoticaGUI.java",
-              "RelativeDocumentMoniker": "src\\domotica\\gui\\DomoticaGUI.java",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\gui\\DomoticaGUI.java",
-              "RelativeToolTip": "src\\domotica\\gui\\DomoticaGUI.java",
-              "ViewState": "AgIAAIQCAAAAAAAAAAAUwIwCAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-13T20:38:53.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ThermostatSetTemperatureCommand.java",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\ast\\ThermostatSetTemperatureCommand.java",
-              "RelativeDocumentMoniker": "src\\domotica\\ast\\ThermostatSetTemperatureCommand.java",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\ast\\ThermostatSetTemperatureCommand.java",
-              "RelativeToolTip": "src\\domotica\\ast\\ThermostatSetTemperatureCommand.java",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-13T18:27:51.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "ThermostatOffCommand.java",
               "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\ast\\ThermostatOffCommand.java",
               "RelativeDocumentMoniker": "src\\domotica\\ast\\ThermostatOffCommand.java",
@@ -147,12 +232,11 @@
               "RelativeToolTip": "src\\domotica\\ast\\ThermostatOffCommand.java",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-13T18:27:35.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T18:27:35.409Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "ThermostatOnCommand.java",
               "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\ast\\ThermostatOnCommand.java",
               "RelativeDocumentMoniker": "src\\domotica\\ast\\ThermostatOnCommand.java",
@@ -160,51 +244,11 @@
               "RelativeToolTip": "src\\domotica\\ast\\ThermostatOnCommand.java",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-13T18:27:04.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T18:27:04.228Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Thermostat.java",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\devices\\Thermostat.java",
-              "RelativeDocumentMoniker": "src\\domotica\\devices\\Thermostat.java",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\devices\\Thermostat.java",
-              "RelativeToolTip": "src\\domotica\\devices\\Thermostat.java",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-13T18:28:14.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Domotica.ATG",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\compiler\\Domotica.ATG",
-              "RelativeDocumentMoniker": "src\\domotica\\compiler\\Domotica.ATG",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\compiler\\Domotica.ATG",
-              "RelativeToolTip": "src\\domotica\\compiler\\Domotica.ATG",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-13T20:42:09.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Parser.java",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\compiler\\Parser.java",
-              "RelativeDocumentMoniker": "src\\domotica\\compiler\\Parser.java",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\compiler\\Parser.java",
-              "RelativeToolTip": "src\\domotica\\compiler\\Parser.java",
-              "ViewState": "AgIAAB8CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-15T01:59:23.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "FanOffCommand.java",
               "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\ast\\FanOffCommand.java",
               "RelativeDocumentMoniker": "src\\domotica\\ast\\FanOffCommand.java",
@@ -216,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "SetFanSpeedCommand.java",
               "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\ast\\SetFanSpeedCommand.java",
               "RelativeDocumentMoniker": "src\\domotica\\ast\\SetFanSpeedCommand.java",
@@ -228,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Routine.java",
               "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\runtime\\Routine.java",
               "RelativeDocumentMoniker": "src\\domotica\\runtime\\Routine.java",
@@ -237,18 +281,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-11-13T18:32:28.832Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Device.java",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\devices\\Device.java",
-              "RelativeDocumentMoniker": "src\\domotica\\devices\\Device.java",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\cambiosenelultfijense\\src\\domotica\\devices\\Device.java",
-              "RelativeToolTip": "src\\domotica\\devices\\Device.java",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-13T18:30:43.369Z"
             }
           ]
         }

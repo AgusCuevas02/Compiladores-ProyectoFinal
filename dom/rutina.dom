@@ -1,49 +1,56 @@
-// RUTINA DOMÓTICA DE DEMOSTRACIÓN (con termostato)
-// Compilador con COCO/R - Trabajo Práctico
+// RUTINA: NOCHE DE VERANO
+// Simulacion de ambiente nocturno automatico
 
-// Encender luces con diferentes colores
+LOG "Iniciando rutina: Noche de Verano"
+LOG "Configurando ambiente relajante"
+
+// Encender luces con tonos calidos
 ON LIGHT 1
-WAIT 2 SECONDS
-COLOR LIGHT 1 TO #FF0000
-ON LIGHT 2
-WAIT 2 SECONDS
-COLOR LIGHT 2 TO #00FF00
+COLOR LIGHT 1 TO #FFA500  // Naranja suave
+ON LIGHT 2  
+COLOR LIGHT 2 TO #FF4500  // Naranja rojizo
 ON LIGHT 3
-WAIT 2 SECONDS
-COLOR LIGHT 3 TO #0000FF
+COLOR LIGHT 3 TO #8B4513  // Marron claro
+
 
 // Activar termostato de la habitación 3 y ajustar temperatura
 LOG "Activando termostato habitación 3..."
 ON THERMOSTAT 3
 SET THERMOSTAT 3 TEMPERATURE 22
+
+WAIT 2 SECONDS
+SET THERMOSTAT 3 TEMPERATURE 30
 WAIT 2 SECONDS
 
-// Activar ventiladores
-LOG "Activando sistema de ventilación..."
+// Activar ventilacion suave
+LOG "Activando ventilacion nocturna"
 ON FAN 1
-SET FAN 1 SPEED 3
-WAIT 3 SECONDS
+SET FAN 1 SPEED 1  // Velocidad baja
 ON FAN 2
-SET FAN 2 SPEED 2
-WAIT 3 SECONDS
+SET FAN 2 SPEED 1  // Velocidad baja
 
-// Mantener estado unos segundos para la demostración
 WAIT 5 SECONDS
 
-// Cambiar temperatura del termostato (simular ajuste)
-LOG "Ajustando temperatura termostato habitación 3..."
-SET THERMOSTAT 3 TEMPERATURE 20
+// Transicion a modo sueño
+LOG "Transicionando a modo sueño"
+COLOR LIGHT 1 TO #8B0000  // Rojo oscuro
+COLOR LIGHT 2 TO #8B0000
+COLOR LIGHT 3 TO #8B0000
+
+WAIT 4 SECONDS
+
+// Reducir intensidad gradualmente
+SET FAN 1 SPEED 2
+SET FAN 2 SPEED 2
 WAIT 2 SECONDS
 
-// Finalizar rutina: apagar dispositivos
-LOG "Apagando todos los dispositivos..."
+// Apagado final
+LOG "Apagando sistema para descanso"
 OFF FAN 1
 OFF FAN 2
 OFF LIGHT 1
 OFF LIGHT 2
 OFF LIGHT 3
-
-// Apagar termostato al final
 OFF THERMOSTAT 3
-
-LOG "Rutina domótica ejecutada exitosamente"
+LOG "Rutina Noche de Verano completada"
+LOG "Sistema en modo reposo"
