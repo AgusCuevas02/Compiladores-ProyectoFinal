@@ -329,26 +329,37 @@ public class DomoticaGUI extends JFrame {
         });
     }
  private JPanel createThermostatPanel(int id) {
-    JPanel panel = new JPanel(new BorderLayout());
-    panel.setBorder(BorderFactory.createLineBorder(Color.GRAY));
-    panel.setBackground(Color.WHITE);
+        JPanel panel = new JPanel(new BorderLayout());
+        panel.setBorder(BorderFactory.createLineBorder(Color.GRAY));
+        panel.setBackground(Color.WHITE); // El fondo exterior siempre blanco
 
-    JLabel label = new JLabel(" Termostato ", SwingConstants.CENTER);
-    panel.add(label, BorderLayout.NORTH);
+        JLabel label = new JLabel(" Termostato ", SwingConstants.CENTER);
+        panel.add(label, BorderLayout.NORTH);
 
-    JLabel tempLabel = new JLabel("--", SwingConstants.CENTER);
-    tempLabel.setFont(new Font("Arial", Font.BOLD, 20));
-    tempLabel.setForeground(Color.DARK_GRAY);
-    panel.add(tempLabel, BorderLayout.CENTER);
+        // --- CAMBIO: Panel interno (display) igual que el de las luces ---
+        JPanel displayPanel = new JPanel(new GridBagLayout()); // GridBag para centrar el texto
+        displayPanel.setPreferredSize(new Dimension(60, 60));
+        displayPanel.setBorder(BorderFactory.createLineBorder(Color.DARK_GRAY));
+        displayPanel.setBackground(Color.WHITE); // Inicialmente blanco/apagado
+        
+        JLabel tempLabel = new JLabel("--", SwingConstants.CENTER);
+        tempLabel.setFont(new Font("Arial", Font.BOLD, 20));
+        tempLabel.setForeground(Color.BLACK);
+        
+        displayPanel.add(tempLabel);
+        panel.add(displayPanel, BorderLayout.CENTER);
+        // ---------------------------------------------------------------
 
-    JLabel status = new JLabel("APAGADO", SwingConstants.CENTER);
-    status.setForeground(Color.RED);
-    panel.add(status, BorderLayout.SOUTH);
+        JLabel status = new JLabel("APAGADO", SwingConstants.CENTER);
+        status.setForeground(Color.RED);
+        panel.add(status, BorderLayout.SOUTH);
 
-    panel.putClientProperty("tempLabel", tempLabel);
-    panel.putClientProperty("status", status);
+        // Guardamos referencias (incluyendo el nuevo displayPanel)
+        panel.putClientProperty("displayPanel", displayPanel); 
+        panel.putClientProperty("tempLabel", tempLabel);
+        panel.putClientProperty("status", status);
 
-    return panel;
+        return panel;
     }
 
  private JPanel createLightPanel(int id) {
@@ -637,15 +648,27 @@ public class DomoticaGUI extends JFrame {
         SwingUtilities.invokeLater(() -> {
             JPanel tPanel = thermostats.get(id);
             if (tPanel != null) {
+                // Recuperamos componentes
+                JPanel displayPanel = (JPanel) tPanel.getClientProperty("displayPanel");
                 JLabel status = (JLabel) tPanel.getClientProperty("status");
                 JLabel tempLabel = (JLabel) tPanel.getClientProperty("tempLabel");
+                
                 if (status != null) {
                     status.setText("APAGADO");
                     status.setForeground(Color.RED);
                 }
+                
+                // Restaurar estado visual a "apagado" (Blanco)
                 if (tempLabel != null) {
                     tempLabel.setText("--");
+                    tempLabel.setForeground(Color.BLACK);
                 }
+                
+                if (displayPanel != null) {
+                    displayPanel.setBackground(Color.WHITE); // Cuadro blanco al apagar
+                }
+                
+                tPanel.repaint();
             }
         });
     }
@@ -654,28 +677,35 @@ public class DomoticaGUI extends JFrame {
         SwingUtilities.invokeLater(() -> {
             JPanel tPanel = thermostats.get(id);
             if (tPanel != null) {
+                JPanel displayPanel = (JPanel) tPanel.getClientProperty("displayPanel");
                 JLabel tempLabel = (JLabel) tPanel.getClientProperty("tempLabel");
                 JLabel status = (JLabel) tPanel.getClientProperty("status");
                 if (tempLabel != null) {
                     tempLabel.setText(String.valueOf(temperature));
                 }
+                if (displayPanel != null) {
+                    if (temperature > 24) {
+                        displayPanel.setBackground(Color.RED);
+                        if (tempLabel != null) tempLabel.setForeground(Color.WHITE);
+                    } else {
+                        displayPanel.setBackground(Color.CYAN);
+                        if (tempLabel != null) tempLabel.setForeground(Color.BLACK);
+                    }
+                }
+                
+                // 2. Logica de Colores solicitada
+                if (displayPanel != null) {
+                    if (temperature > 24) {
+                        displayPanel.setBackground(Color.RED);
+                        if (tempLabel != null) tempLabel.setForeground(Color.WHITE);
+                    } else {
+                        displayPanel.setBackground(Color.CYAN);
+                        if (tempLabel != null) tempLabel.setForeground(Color.BLACK);
+                    }
+                }
                 if (status != null) {
                     status.setText("ENCENDIDO");
                     status.setForeground(Color.BLUE);
-                }
-                // 2. Logica de Colores solicitada
-                if (temperature > 24) {
-                    // Si es mayor a 24, fondo ROJO
-                    tPanel.setBackground(Color.RED);
-                    
-                    // Cambiamos el color del texto a blanco para que se lea bien sobre rojo
-                    if (tempLabel != null) tempLabel.setForeground(Color.WHITE);
-                } else {
-                    // Si es menor o igual, fondo AZUL (Usamos CYAN para mejor contraste, o Color.BLUE)
-                    tPanel.setBackground(Color.CYAN); 
-                    
-                    // Texto negro para fondo claro
-                    if (tempLabel != null) tempLabel.setForeground(Color.BLACK);
                 }
                 tPanel.repaint();
             }
