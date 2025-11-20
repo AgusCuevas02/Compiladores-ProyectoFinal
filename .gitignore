@@ -1,0 +1,22 @@
+Archivos compilados de Java,
+*.class
+*.jar
+*.war
+*.ear
+
+Directorios de build,
+bin/
+build/
+target/
+out/
+dist/
+
+Archivos de IDE,
+.settings/
+.project
+.classpath
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
