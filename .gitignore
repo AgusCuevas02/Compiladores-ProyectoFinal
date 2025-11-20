@@ -1,0 +1,13 @@
+# Visual Studio garbage
+.vs/
+*.db
+*.db-shm
+*.db-wal
+*.vsidx
+
+# Java compiled classes
+bin/
+*.class
+
+# Otros temporales
+*.log
